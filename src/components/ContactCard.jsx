@@ -4,6 +4,7 @@ import SocialNetwork from "./SocialNetwork";
 
 const ContactCard = () => {
   const number = import.meta.env.VITE_NUMBER;
+  const gmail = import.meta.env.VITE_GMAIL;
 
   return (
     <div
@@ -22,7 +23,7 @@ const ContactCard = () => {
         >
           <WhatsAppIcon />
         </a>
-        <a href="">
+        <a href={`mailto:${gmail}`}>
           <GmailIcon />
         </a>
       </div>

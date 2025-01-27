@@ -32,7 +32,7 @@ const Footer = () => {
               <PhoneIcon /> +51 977 139 843 / 974 459 169
             </p>
             <p className="flex items-center gap-x-1">
-              <EmailIcon /> correo.com
+              <EmailIcon /> webberyl43@gmail.com
             </p>
           </div>
         </div>
